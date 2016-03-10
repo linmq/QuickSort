@@ -8,7 +8,7 @@ void quickSort(int *arr, int l, int r);
 int main()
 {
 	int numArr[5] = { 3,6,0,9,4 };
-	quickSort02(numArr, 0, 4);
+	quickSort(numArr, 0, 4);
 	for (int i = 0; i < 5; i++) 
 	{
 		printf("%d ", numArr[i]);
